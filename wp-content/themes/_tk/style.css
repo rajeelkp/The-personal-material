@@ -3,6 +3,7 @@ Theme Name: Personal Material UnderScore
 Author: Rajeel
 
 */
+
 body {
 	word-wrap: break-word;
 	background: #212121;
@@ -108,7 +109,7 @@ object {
 
 /* Content */
 .main-content {
-    background: #fff;
+/*    background: #fff;*/
 }
 .main-content-inner {
 	padding-bottom: 1.5em;
@@ -235,7 +236,7 @@ display: block;
 }
 
 .big-card {
-    height: 175px;
+    height: 187.5px;
 }
 .card-inset-shadow {
 	-webkit-box-shadow: inset 3px 3px 10px 0px rgba(33,33,33,0.5);
@@ -244,6 +245,15 @@ display: block;
 }
 .m-0 {
 	margin: 0px;
+}
+
+.sidebar {
+    overflow: hidden;
+    padding-right: 0px;
+}
+
+.p-0 {
+    padding: 0px;
 }
 .card {
 	border: none;
@@ -269,12 +279,21 @@ display: block;
     color: #E56262;
     border-right: 5px solid #E56262;
     padding: 5px 10px;
-    font-size: 14px;
-    font-family: American Typewriter;
+font-family: 'Nixie One', cursive;
+}
+
+.font-14{
+    font-size: 3.45vw;
+}
+
+
+.sidebar-padder {
+/*        float: right;*/
+/*    min-width: 235px;*/
 }
 
 .single-box {
-    height: 35px;
+    height: 37.5px;
     width: 100%;
     border: 0px;
     color: white;
@@ -300,7 +319,52 @@ display: block;
     background: #dd4b39;
 }
 
+.instagram {
+    background: #2d5e85;   
+}
 .mail {
-    background: #dd4b39;
+    background: #3498db;
+}
+.site-title, .site-title a {
+font-family: 'Fredericka the Great', cursive;
+   
+}
+.page-title {
+    margin: 0px;
+    margin-left: -15px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-right: 30px solid #e56261;
+    background: #212121;  
+    color: white;
+    text-align: right;
+    font-family: 'Vast Shadow', cursive;
+
 }
 
+.page-title a {
+    color: white;
+}
+
+.menu-1 {
+    height: 33.33%;
+    font-size: 2.5em;
+    color: white;
+    font-family: Vast Shadow, monospace;
+    border-top: 3px inset #e56261;
+    padding: 0px 20px;
+    background: linear-gradient(to left, #E56262 50%, #903e3d 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:all 2s ease;
+
+}
+.menu-1:first-child {
+    border-top: none;
+}
+.menu-1:hover {
+   background-position: left bottom;
+}
+.menu-2{
+/*    text-align: right;*/
+}

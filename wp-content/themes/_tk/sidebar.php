@@ -8,8 +8,25 @@
 
 	</div><!-- close .main-content-inner -->
 
-	<div class="sidebar col-xs-12 col-sm-4 col-md-4">
+	<div class="sidebar col-xs-12 col-sm-4 col-md-3">
+     <div class='socials'>
+        <div class='hidden-xs'>
+         <div class='big-card card-inset-shadow white'>
+             <div class='single-box fb'><img  src='<?php echo get_template_directory_uri() ?>/includes/images/fb.png'/>Find on Facebook</div>
+             <div class='single-box twitter'><img  src='<?php echo get_template_directory_uri() ?>/includes/images/twitter.png'/>Find on Twitter</div>
+             <div class='single-box linkedin'><img  src='<?php echo get_template_directory_uri() ?>/includes/images/g+.png'/>Find on Google +</div>
+             <div class='single-box instagram'><img src='<?php echo get_template_directory_uri() ?>/includes/images/instagram.png'>Find on Instagram</div>
+             <div class='single-box mail'><img src='<?php echo get_template_directory_uri() ?>/includes/images/mail.png'>Message Me</div>
 
+            </div>
+        </div>
+ 
+        <div class='hidden-xs'>
+            <div class='rapid h3'>
+                A lazy body powered by an extremely efficient mind capable of generating enthusiastic ideas from dynamic viewpoints, coupled with an emotion cooled and divine heart.
+            </div>
+        </div>   
+      </div>
 		<?php // add the class "panel" below here to wrap the sidebar in Bootstrap style ;) ?>
 		<div class="sidebar-padder">
 
