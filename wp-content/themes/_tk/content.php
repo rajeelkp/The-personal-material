@@ -18,8 +18,14 @@
 		<h1 class="page-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php _tk_posted_on(); ?>
+		<div class="entry-meta dateblock">
+			<?php //_tk_posted_on(); ?>
+
+					<p class="date month<?php the_time('n'); ?>">
+						<?php the_time('j'); ?>
+					</p>
+
+
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->

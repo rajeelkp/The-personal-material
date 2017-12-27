@@ -326,7 +326,10 @@ font-family: 'Nixie One', cursive;
     background: #3498db;
 }
 .site-title, .site-title a {
-font-family: 'Fredericka the Great', cursive;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 72px;
+	text-transform: uppercase;
+	color: #e56261;
    
 }
 .page-title {
@@ -348,23 +351,53 @@ font-family: 'Fredericka the Great', cursive;
 
 .menu-1 {
     height: 33.33%;
-    font-size: 2.5em;
+    font-size: 1.7em;
     color: white;
     font-family: Vast Shadow, monospace;
     border-top: 3px inset #e56261;
-    padding: 0px 20px;
+    padding: 10px 20px;
     background: linear-gradient(to left, #E56262 50%, #903e3d 50%);
     background-size: 200% 100%;
     background-position:right bottom;
     transition:all 2s ease;
-
 }
+
+@media screen and (max-width: 1000px) {
+	.menu-1{
+   		 font-size: 1.2em !important;
+   		}
+    } 
 .menu-1:first-child {
     border-top: none;
 }
 .menu-1:hover {
    background-position: left bottom;
 }
-.menu-2{
-/*    text-align: right;*/
+p.date {
+	width: 42px;
+	height: 10px;
+	padding: 16px 0 24px 0;
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+
 }
+.dateblock{
+    float: left;
+    margin: 0px 20px 5px 3px;
+}
+.entry-content{
+    padding-left: 64px;
+    font-size: 18px;
+}
+.month1 { background: url(includes/images/01.gif) no-repeat 0 0; }
+.month2 { background: url(includes/images/02.gif) no-repeat 0 0; }
+.month3 { background: url(includes/images/03.gif) no-repeat 0 0; }
+.month4 { background: url(includes/images/04.gif) no-repeat 0 0; }
+.month5 { background: url(includes/images/05.gif) no-repeat 0 0; }
+.month6 { background: url(includes/images/06.gif) no-repeat 0 0; }
+.month7 { background: url(includes/images/07.gif) no-repeat 0 0; }
+.month8 { background: url(includes/images/08.gif) no-repeat 0 0; }
+.month9 { background: url(includes/images/09.gif) no-repeat 0 0; }
+.month10 { background: url(includes/images/10.gif) no-repeat 0 0; }
+.month11 { background: url(includes/images/11.gif) no-repeat 0 0; }
+.month12 { background: url(includes/images/12.gif) no-repeat 0 0; }

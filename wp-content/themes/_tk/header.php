@@ -16,7 +16,7 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 <!--google fonts start-->
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Bungee+Outline|Bungee+Shade|Cabin+Sketch|Fredericka+the+Great|Lancelot|Londrina+Outline|Londrina+Shadow|Nixie+One|Vast+Shadow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Fredericka+the+Great|Londrina+Outline|Londrina+Shadow|Nixie+One|Vast+Shadow" rel="stylesheet">
 <!--    Google font end-->
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
