@@ -16,7 +16,7 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 <!--google fonts start-->
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Fredericka+the+Great|Londrina+Outline|Londrina+Shadow|Nixie+One|Vast+Shadow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Fredericka+the+Great|Londrina+Outline|Londrina+Shadow|Nixie+One|Vast+Shadow" rel="stylesheet">
 <!--    Google font end-->
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
@@ -56,9 +56,9 @@
 			</div>
 			<div class='container col-sm-3 col-xs-6'>
 				<div class='red top-card card-inset-shadow'>
-					<div class='menu-1'>Home</div>
-					<div class='menu-1 menu-2'>About Me</div>
-					<div class='menu-1'>Blog</div>
+					<div class='menu-1' ><a href='<?php echo esc_url( home_url( '/' ) ); ?>'>Home</a></div>
+					<div class='menu-1 menu-2'><a href='http://rajeelkp.com/about/'>About Me</a></div>
+					<div class='menu-1'><a href='http://rajeelkp.com/tag/blog/'>Blog</a></div>
                     
 				</div>	
 			</div>
@@ -66,11 +66,11 @@
       <div class='row  socials'>
         <div class='container col-xs-6 visible-xs'>
          <div class='big-card card-inset-shadow white'>
-             <div class='single-box fb'><img  src='<?php echo get_template_directory_uri() ?>/includes/images/fb.png'/>Facebook</div>
-             <div class='single-box twitter'><img  src='<?php echo get_template_directory_uri() ?>/includes/images/twitter.png'/>Twitter</div>
-             <div class='single-box linkedin'><img  src='<?php echo get_template_directory_uri() ?>/includes/images/g+.png'/>Google +</div>
-             <div class='single-box instagram'><img src='<?php echo get_template_directory_uri() ?>/includes/images/instagram.png'>Instagram</div>
-             <div class='single-box mail'><img src='<?php echo get_template_directory_uri() ?>/includes/images/mail.png'>Message Me</div>
+             <div class='single-box fb'><a href='https://www.facebook.com/rajeel.kp'><img  src='<?php echo get_template_directory_uri() ?>/includes/images/fb.png'/>Facebook</a></div>
+             <div class='single-box twitter'><a href='https://twitter.com/rajeelkp'><img  src='<?php echo get_template_directory_uri() ?>/includes/images/twitter.png'/>Twitter</a></div>
+             <div class='single-box linkedin'><a href='https://plus.google.com/u/0/113442488608822375740'><img  src='<?php echo get_template_directory_uri() ?>/includes/images/g+.png'/>Google +</a></div>
+             <div class='single-box instagram'><a href='https://www.instagram.com/rajeelkp/'><img src='<?php echo get_template_directory_uri() ?>/includes/images/instagram.png'>Instagram</a></div>
+             <div class='single-box mail'><a href='mailto:mail@rajeelkp.com'><img src='<?php echo get_template_directory_uri() ?>/includes/images/mail.png'>Message Me</a></div>
 
             </div>
         </div>

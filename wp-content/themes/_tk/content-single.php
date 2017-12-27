@@ -8,9 +8,15 @@
 	<header>
 		<h1 class="page-title"><?php the_title(); ?></h1>
 
-		<div class="entry-meta">
-			<?php _tk_posted_on(); ?>
-		</div><!-- .entry-meta -->
+	<div class="entry-meta dateblock">
+			<?php //_tk_posted_on(); ?>
+
+					<p class="date month<?php the_time('n'); ?>">
+						<?php the_time('j'); ?>
+					</p>
+
+
+	</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

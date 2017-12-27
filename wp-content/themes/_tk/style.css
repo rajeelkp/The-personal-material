@@ -279,7 +279,7 @@ display: block;
     color: #E56262;
     border-right: 5px solid #E56262;
     padding: 5px 10px;
-font-family: 'Nixie One', cursive;
+	font-family: 'Nixie One', cursive;
 }
 
 .font-14{
@@ -293,14 +293,25 @@ font-family: 'Nixie One', cursive;
 }
 
 .single-box {
-    height: 37.5px;
+    height: 38px;
     width: 100%;
     border: 0px;
     color: white;
     text-transform: uppercase;
-/*    text-align: center;*/
+    font-family: 'Vast Shadow', cursive;
+	font-size: 12px;
+	opacity: 0.7;
+    transition:all 0.5s ease;
 }
 
+.single-box:hover {
+	opacity: 1;
+
+}
+.single-box a {
+	color: white;
+	text-decoration: none;
+}
 .single-box img{
     height: 100%;
     width: auto;
@@ -341,12 +352,21 @@ font-family: 'Nixie One', cursive;
     background: #212121;  
     color: white;
     text-align: right;
-    font-family: 'Vast Shadow', cursive;
+    font-family: 'Londrina Shadow', cursive;
+    transition:all 0.5s ease;
+}
 
+.page-title:hover {
+	opacity: 0.8;
 }
 
 .page-title a {
     color: white;
+}
+
+.page-title a:hover {
+	color: #e56261;
+	text-decoration: none;
 }
 
 .menu-1 {
@@ -362,8 +382,14 @@ font-family: 'Nixie One', cursive;
     transition:all 2s ease;
 }
 
+.menu-1 a{
+	font-size: inherit;
+    color: white;
+    font-family: Vast Shadow, monospace;
+	text-decoration: none;
+}
 @media screen and (max-width: 1000px) {
-	.menu-1{
+	.menu-1 {
    		 font-size: 1.2em !important;
    		}
     } 
@@ -388,6 +414,8 @@ p.date {
 .entry-content{
     padding-left: 64px;
     font-size: 18px;
+    font-family: 'Nixie One', cursive;
+    font-weight: bold;
 }
 .month1 { background: url(includes/images/01.gif) no-repeat 0 0; }
 .month2 { background: url(includes/images/02.gif) no-repeat 0 0; }
