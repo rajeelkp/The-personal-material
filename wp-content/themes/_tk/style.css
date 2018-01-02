@@ -259,6 +259,12 @@ display: block;
 	border: none;
 	margin: 10px;
 }
+.half-face {
+	transition: all 3s;
+}
+.half-face:hover {
+	background : #E56262;
+}
 .half-face img {
 	height : 150px;
 }
@@ -336,12 +342,24 @@ display: block;
 .mail {
     background: #3498db;
 }
+.site-branding {
+	transition : all 4s;
+}
+.site-branding:hover{
+	background: #e56261;
+}
 .site-title, .site-title a {
 	font-family: 'Fredericka the Great', cursive;
-	font-size: 72px;
+	font-size: 64px;
 	text-transform: uppercase;
 	color: #e56261;
-   
+	text-shadow: 1px 1px 5px rgba(250, 250, 250, 1);   
+}
+
+.site-title a:hover {
+	text-decoration: none;
+	text-shadow: 2px -1px 5px rgba(250, 250, 250, 1);
+	transition:all 1s ease;
 }
 .page-title {
     margin: 0px;
@@ -429,3 +447,83 @@ p.date {
 .month10 { background: url(includes/images/10.gif) no-repeat 0 0; }
 .month11 { background: url(includes/images/11.gif) no-repeat 0 0; }
 .month12 { background: url(includes/images/12.gif) no-repeat 0 0; }
+.home-card {
+	margin:0px auto;
+	padding-top:40px;
+}
+.avatar img{
+	margin:0px auto;
+	display: block;
+	padding-top:50px;
+}
+.role {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Fredericka the Great', cursive;
+    width: 100%;
+    color: #e56261;
+    float: left;
+}
+.role-info {
+	font-family: 'Nixie One', cursive;
+	text-align: justify;
+	text-align-last: center;
+}
+
+
+.card-1 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding: 20px;
+  background: white;
+}
+
+.card-1:hover {
+     	 box-shadow: 0 39px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.random-button {
+	background: #e56261;
+	color: white;
+	padding:10px;
+	width: 100%; 
+        font-family: 'Vast Shadow', monospace;
+        opacity: 1;
+	outline: none;
+	border: none;
+}
+
+.random-button:focus, .random-button:active {
+	outline: none;
+	border: none;
+}
+.random-button:hover {
+	opacity: 0.71;
+}
+
+.read {
+	text-align: right;
+	margin: 0px 0px 20px 0px;
+	background : #212121;	
+	padding: 27px;
+	cursor: pointer;
+}
+
+.big-red {
+	background: #e56261;
+}
+
+#hided {
+	display: none;
+}
+.site-info {
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+.site-info a {
+	background: white;
+	color: #e56261;
+	padding:10px;
+	border-bottom: 8px solid #e56261;
+}
